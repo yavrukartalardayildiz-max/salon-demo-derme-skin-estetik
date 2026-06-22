@@ -1,0 +1,1522 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>DERME Cilt Bakım & Estetik — Kadıköy | Klinik Cilt Bakımı, Hydrafacial, Leke & Akne</title>
+<meta name="description" content="Kadıköy'de sakin ve hijyenik bir ortamda klinik cilt bakımı: Hydrafacial, leke bakımı, akne bakımı, sır epilasyon, kaş & kirpik tasarımı. Uzman estetisyen, steril ortam, kişiye özel bakım." />
+<meta name="theme-color" content="#9DB0A0" media="(prefers-color-scheme: light)" />
+<meta name="theme-color" content="#11201D" media="(prefers-color-scheme: dark)" />
+
+<!-- Open Graph -->
+<meta property="og:type" content="website" />
+<meta property="og:title" content="DERME Cilt Bakım & Estetik — Kadıköy" />
+<meta property="og:description" content="Klinik-lüks, sakin bir cilt bakım deneyimi. Hydrafacial, leke & akne bakımı, epilasyon, kaş & kirpik tasarımı. Randevu için bize ulaşın." />
+<meta property="og:locale" content="tr_TR" />
+<meta property="og:site_name" content="DERME Cilt Bakım & Estetik" />
+<!-- og:image — operator yayina almadan once gercek bir gorsel URL'i ekleyebilir -->
+<meta property="og:image" content="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1200' height='630'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%23FBFDFC'/%3E%3Cstop offset='1' stop-color='%23E7EDE8'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='1200' height='630' fill='url(%23g)'/%3E%3Ctext x='600' y='320' font-family='Georgia,serif' font-size='86' fill='%231F2A28' text-anchor='middle'%3EDERME%3C/text%3E%3Ctext x='600' y='390' font-family='Arial,sans-serif' font-size='30' letter-spacing='6' fill='%237C9384' text-anchor='middle'%3ECILT BAKIM %26 ESTETIK · KADIKOY%3C/text%3E%3C/svg%3E" />
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="DERME Cilt Bakım & Estetik — Kadıköy" />
+<meta name="twitter:description" content="Klinik-lüks, sakin bir cilt bakım deneyimi. Hydrafacial, leke & akne bakımı, epilasyon, kaş & kirpik tasarımı." />
+
+<!-- Emoji favicon (data-uri) -->
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%E2%9C%A8%3C/text%3E%3C/svg%3E" />
+
+<!-- JSON-LD LocalBusiness (placeholder verilerle — operator gercek bilgiyle gunceller) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BeautySalon",
+  "name": "DERME Cilt Bakım & Estetik",
+  "description": "Kadıköy'de klinik cilt bakımı: Hydrafacial, leke & akne bakımı, sır epilasyon, kaş & kirpik tasarımı.",
+  "image": "",
+  "telephone": "+90 5__ ___ __ __",
+  "priceRange": "₺₺",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Moda Cad. No: __",
+    "addressLocality": "Kadıköy",
+    "addressRegion": "İstanbul",
+    "addressCountry": "TR"
+  },
+  "geo": { "@type": "GeoCoordinates", "latitude": "40.9836", "longitude": "29.0257" },
+  "openingHoursSpecification": [
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"], "opens": "10:00", "closes": "20:00" }
+  ],
+  "sameAs": ["https://instagram.com/derme.skin"]
+}
+</script>
+<!-- Not: aggregateRating (yildiz/puan markup'i) bilerek eklenmedi — gercek,
+     dogrulanabilir yorumlar yayina girene kadar sahte derecelendirme markup'i
+     SEO icin zararlidir (Google yaptirim uygulayabilir). -->
+
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;1,9..144,400&display=swap" rel="stylesheet" />
+
+<style>
+/* ============================================================
+   DERME — el yazimi, self-contained CSS (Tailwind Play CDN YOK)
+   Tasarim DNA korundu: sage + gold + clinic + ink, Fraunces/Manrope
+   ============================================================ */
+
+/* ---------- Design tokens (light) ---------- */
+:root {
+  color-scheme: light dark;
+
+  --sage:       #9DB0A0;
+  --sage-deep:  #7C9384;
+  --sage-soft:  #E7EDE8;
+  --clinic:     #FBFDFC;
+  --gold:       #CBB68B;
+  --gold-soft:  #EFE7D5;
+  --ink:        #1F2A28;
+  --ink-soft:   #46524F;
+
+  --bg:         var(--clinic);
+  --surface:    #FFFFFF;
+  --surface-2:  #F2F6F2;
+  --text:       var(--ink);
+  --text-soft:  var(--ink-soft);
+  --line:       rgba(31, 42, 40, 0.10);
+  --line-soft:  rgba(31, 42, 40, 0.06);
+
+  --shadow-card: 0 24px 50px -28px rgba(31,42,40,0.28);
+  --shadow-soft: 0 30px 70px -45px rgba(31,42,40,0.40);
+  --shadow-inset-soft: inset 1px 1px 2px rgba(255,255,255,0.7), inset -2px -2px 6px rgba(31,42,40,0.05);
+
+  --maxw: 1200px;
+  --radius: 18px;
+  --radius-lg: 26px;
+
+  --font-sans: 'Manrope', ui-sans-serif, system-ui, -apple-system, sans-serif;
+  --font-serif: 'Fraunces', ui-serif, Georgia, serif;
+
+  --ease: cubic-bezier(.2,.7,.2,1);
+
+  --hero-bg:
+    radial-gradient(1100px 620px at 78% 8%, rgba(203,182,139,0.22), transparent 60%),
+    radial-gradient(900px 700px at 8% 90%, rgba(157,176,160,0.30), transparent 55%),
+    radial-gradient(600px 600px at 50% 40%, rgba(255,255,255,0.55), transparent 70%),
+    linear-gradient(160deg, #FBFDFC 0%, #F2F6F2 48%, #EAF0EA 100%);
+}
+
+/* ---------- Dark variant (auto) ---------- */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --sage:       #A7BCAA;
+    --sage-deep:  #C5D6C7;
+    --sage-soft:  #1B2A26;
+    --clinic:     #0E1A17;
+    --gold:       #D8C292;
+    --gold-soft:  #2A2417;
+    --ink:        #ECF1EE;
+    --ink-soft:   #A6B3AE;
+
+    --bg:         #0E1A17;
+    --surface:    #13201C;
+    --surface-2:  #15231F;
+    --text:       #ECF1EE;
+    --text-soft:  #A6B3AE;
+    --line:       rgba(236, 241, 238, 0.12);
+    --line-soft:  rgba(236, 241, 238, 0.07);
+
+    --shadow-card: 0 28px 60px -30px rgba(0,0,0,0.7);
+    --shadow-soft: 0 34px 80px -45px rgba(0,0,0,0.8);
+    --shadow-inset-soft: inset 1px 1px 2px rgba(255,255,255,0.04), inset -2px -2px 6px rgba(0,0,0,0.4);
+
+    --hero-bg:
+      radial-gradient(1100px 620px at 78% 8%, rgba(216,194,146,0.14), transparent 60%),
+      radial-gradient(900px 700px at 8% 90%, rgba(120,147,132,0.22), transparent 55%),
+      radial-gradient(600px 600px at 50% 40%, rgba(255,255,255,0.04), transparent 70%),
+      linear-gradient(160deg, #0E1A17 0%, #11201C 48%, #0C1714 100%);
+  }
+}
+
+/* ---------- Reset & base ---------- */
+*, *::before, *::after { box-sizing: border-box; }
+* { margin: 0; }
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+  scroll-padding-top: 88px;
+}
+body {
+  font-family: var(--font-sans);
+  background-color: var(--bg);
+  color: var(--text);
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden;
+}
+img { display: block; max-width: 100%; height: auto; }
+a { color: inherit; text-decoration: none; }
+button { font: inherit; cursor: pointer; }
+ul { list-style: none; padding: 0; }
+h1, h2, h3 { font-family: var(--font-serif); font-weight: 400; line-height: 1.05; letter-spacing: -0.01em; text-wrap: balance; }
+:focus-visible {
+  outline: 2px solid var(--sage-deep);
+  outline-offset: 3px;
+  border-radius: 6px;
+}
+::selection { background: var(--sage); color: #fff; }
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+}
+
+/* ---------- Layout helpers ---------- */
+.wrap { width: 100%; max-width: var(--maxw); margin-inline: auto; padding-inline: clamp(1.1rem, 4vw, 2rem); }
+.section { padding-block: clamp(4.5rem, 9vw, 8rem); }
+.eyebrow {
+  font-size: 12px; font-weight: 600; text-transform: uppercase;
+  letter-spacing: 0.28em; color: var(--sage-deep); margin-bottom: 1rem;
+}
+.hairline { height: 1px; background: linear-gradient(90deg, transparent, var(--line), transparent); border: 0; }
+.serif-i { font-family: var(--font-serif); font-style: italic; color: var(--sage-deep); }
+
+/* ---------- Skip nav ---------- */
+.skip-nav {
+  position: absolute; left: 1rem; top: -120%; z-index: 200;
+  background: var(--ink); color: var(--clinic);
+  padding: 0.7rem 1.1rem; border-radius: 10px; font-weight: 600; font-size: 14px;
+  transition: top .2s var(--ease);
+}
+.skip-nav:focus { top: 1rem; }
+
+/* ---------- Buttons ---------- */
+.btn {
+  display: inline-flex; align-items: center; justify-content: center; gap: 0.6rem;
+  border-radius: 999px; font-weight: 600; font-size: 15px; line-height: 1;
+  padding: 1rem 1.7rem; border: 1px solid transparent;
+  transition: background-color .35s var(--ease), color .35s var(--ease),
+              border-color .35s var(--ease), transform .35s var(--ease), box-shadow .35s var(--ease);
+}
+.btn-primary { background: var(--ink); color: var(--clinic); }
+.btn-primary:hover { background: var(--sage-deep); transform: translateY(-2px); }
+.btn-ghost { border-color: var(--line); color: var(--text); background: transparent; }
+.btn-ghost:hover { border-color: var(--sage-deep); background: color-mix(in srgb, var(--surface) 60%, transparent); }
+.btn-outline-sage { border-color: var(--sage); color: var(--sage-deep); background: transparent; }
+.btn-outline-sage:hover { background: var(--sage); color: #fff; }
+
+/* sheen — transform/opacity only, reduced-motion safe */
+.btn-sheen { position: relative; overflow: hidden; }
+.btn-sheen::after {
+  content: ""; position: absolute; top: 0; left: -120%; width: 60%; height: 100%;
+  background: linear-gradient(120deg, transparent, rgba(255,255,255,0.35), transparent);
+  transform: skewX(-12deg);
+  transition: left .6s var(--ease);
+  pointer-events: none;
+}
+.btn-sheen:hover::after { left: 130%; }
+
+/* ---------- Header / nav ---------- */
+.header {
+  position: fixed; inset: 0 0 auto 0; z-index: 90;
+  transition: background-color .4s var(--ease), box-shadow .4s var(--ease), border-color .4s var(--ease);
+  border-bottom: 1px solid transparent;
+}
+.header.scrolled {
+  background: color-mix(in srgb, var(--bg) 85%, transparent);
+  -webkit-backdrop-filter: blur(14px); backdrop-filter: blur(14px);
+  box-shadow: 0 8px 30px -18px rgba(31,42,40,0.35);
+  border-bottom-color: var(--line-soft);
+}
+.nav { display: flex; align-items: center; justify-content: space-between; height: 72px; }
+.brand { display: inline-flex; align-items: center; gap: 0.65rem; }
+.brand-mark {
+  display: inline-grid; place-items: center; width: 36px; height: 36px;
+  border-radius: 999px; border: 1px solid color-mix(in srgb, var(--sage) 60%, transparent);
+  color: var(--text); transition: background-color .4s var(--ease), color .4s var(--ease);
+}
+.brand:hover .brand-mark { background: var(--sage); color: #fff; }
+.brand-name { font-size: 17px; font-weight: 700; letter-spacing: -0.01em; }
+.nav-links { display: none; align-items: center; gap: 2rem; font-size: 14px; font-weight: 500; color: var(--text-soft); }
+.nav-link { position: relative; transition: color .3s var(--ease); }
+.nav-link::after {
+  content: ""; position: absolute; left: 0; bottom: -5px; height: 1.5px; width: 0;
+  background: currentColor; transition: width .3s var(--ease);
+}
+.nav-link:hover { color: var(--text); }
+.nav-link:hover::after { width: 100%; }
+.nav-link.active { color: var(--text); }
+.nav-link.active::after { width: 100%; }
+.nav-cta { display: none; }
+.menu-btn {
+  display: inline-grid; place-items: center; width: 42px; height: 42px;
+  border-radius: 999px; border: 1px solid var(--line); color: var(--text); background: transparent;
+}
+@media (min-width: 1024px) {
+  .nav-links { display: flex; }
+  .nav-cta { display: inline-flex; }
+  .menu-btn { display: none; }
+}
+
+/* mobile menu */
+.mobile-menu {
+  margin: 0 1rem .5rem; border-radius: var(--radius);
+  background: color-mix(in srgb, var(--surface) 96%, transparent);
+  -webkit-backdrop-filter: blur(14px); backdrop-filter: blur(14px);
+  border: 1px solid var(--line); box-shadow: var(--shadow-card); overflow: hidden;
+  transition: opacity .3s var(--ease), transform .3s var(--ease);
+}
+.mobile-menu.hidden { opacity: 0; transform: translateY(-8px); pointer-events: none; }
+.mobile-menu-inner { display: flex; flex-direction: column; padding: 0.75rem; font-size: 15px; font-weight: 500; }
+.m-link { padding: 0.8rem 1rem; border-radius: 12px; transition: background-color .25s var(--ease); }
+.m-link:hover { background: var(--sage-soft); }
+.m-link.cta { margin-top: 0.25rem; background: var(--ink); color: var(--clinic); text-align: center; font-weight: 600; }
+@media (min-width: 1024px) { .mobile-menu { display: none; } }
+
+/* ---------- Hero ---------- */
+.hero {
+  position: relative; min-height: 100svh; display: flex; align-items: center;
+  padding-top: 7rem; padding-bottom: 5rem; background: var(--hero-bg);
+}
+.hero::before {
+  content: ""; position: absolute; inset: 0; pointer-events: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.4'/%3E%3C/svg%3E");
+  opacity: 0.04; mix-blend-mode: multiply;
+}
+.hero-grid { display: grid; gap: clamp(2.5rem, 5vw, 4rem); align-items: center; width: 100%; position: relative; }
+@media (min-width: 1024px) { .hero-grid { grid-template-columns: 7fr 5fr; } }
+
+.badge {
+  display: inline-flex; align-items: center; gap: 0.6rem;
+  padding: 0.45rem 0.9rem; border-radius: 999px;
+  background: color-mix(in srgb, var(--surface) 70%, transparent);
+  border: 1px solid color-mix(in srgb, var(--sage) 40%, transparent);
+  -webkit-backdrop-filter: blur(6px); backdrop-filter: blur(6px);
+  font-size: 12px; text-transform: uppercase; letter-spacing: 0.22em; font-weight: 600; color: var(--sage-deep);
+  margin-bottom: 1.75rem;
+}
+.badge .dot { width: 6px; height: 6px; border-radius: 999px; background: var(--sage); }
+
+.hero h1 {
+  font-size: clamp(2.6rem, 7vw, 5.2rem); line-height: 1.02; letter-spacing: -0.02em; color: var(--text);
+}
+/* kinetik stagger reveal — JS adds .ready; reduced-motion shows instantly */
+.kinetic .kw { display: inline-block; }
+.kinetic.stagger .kw { opacity: 0; transform: translateY(0.5em); }
+.kinetic.stagger.ready .kw {
+  opacity: 1; transform: translateY(0);
+  transition: opacity .7s var(--ease), transform .7s var(--ease);
+  transition-delay: calc(var(--i) * 70ms);
+}
+.hero-lead { margin-top: 1.75rem; max-width: 34rem; font-size: 17px; color: var(--text-soft); }
+.hero-actions { margin-top: 2.25rem; display: flex; flex-direction: column; gap: 0.85rem; }
+@media (min-width: 560px) { .hero-actions { flex-direction: row; } }
+
+/* trust signals (fold ustu) */
+.trust-row {
+  margin-top: 2.5rem; display: flex; flex-wrap: wrap; align-items: center;
+  gap: 1.25rem 1.5rem;
+}
+.trust-rating { display: inline-flex; align-items: center; gap: 0.6rem; }
+.stars { color: var(--gold); font-size: 16px; letter-spacing: 1px; }
+.trust-rating .num { font-weight: 700; color: var(--text); }
+.trust-sep { width: 1px; height: 26px; background: var(--line); }
+.trust-text { font-size: 13.5px; color: var(--text-soft); font-weight: 500; }
+.trust-text b { color: var(--text); }
+
+.trust-badges { margin-top: 1.75rem; display: grid; grid-template-columns: 1fr; gap: 0.9rem; max-width: 32rem; }
+@media (min-width: 480px) { .trust-badges { grid-template-columns: repeat(3, 1fr); } }
+.trust-badge { display: flex; align-items: center; gap: 0.65rem; }
+.trust-badge svg { color: var(--sage-deep); flex-shrink: 0; }
+.trust-badge span { font-size: 13px; line-height: 1.25; color: var(--text-soft); font-weight: 500; }
+
+/* hero side card — selective glass depth */
+.hero-card-wrap { position: relative; }
+.hero-card-glow {
+  position: absolute; inset: -0.75rem; border-radius: 2rem;
+  background: linear-gradient(135deg, var(--gold-soft), var(--sage-soft));
+  filter: blur(28px); opacity: 0.6;
+}
+.hero-card {
+  position: relative; border-radius: var(--radius-lg);
+  background: color-mix(in srgb, var(--surface) 82%, transparent);
+  -webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px);
+  border: 1px solid color-mix(in srgb, #fff 60%, transparent);
+  box-shadow: var(--shadow-soft); padding: 1.75rem;
+}
+.hero-card-top { display: flex; align-items: center; justify-content: space-between; }
+.hero-card-top .label { font-size: 12px; text-transform: uppercase; letter-spacing: 0.22em; font-weight: 600; color: var(--sage-deep); }
+.hero-card-title { margin-top: 0.75rem; font-family: var(--font-serif); font-size: 1.6rem; color: var(--text); line-height: 1.25; }
+.ritual-list { margin-top: 0.5rem; display: flex; flex-direction: column; gap: 0.9rem; font-size: 14.5px; color: var(--text-soft); }
+.ritual-list li { display: flex; align-items: center; gap: 0.75rem; }
+.ritual-num { display: grid; place-items: center; width: 28px; height: 28px; border-radius: 999px; background: var(--sage-soft); color: var(--sage-deep); font-size: 12px; font-weight: 700; flex-shrink: 0; }
+.hero-card-note {
+  margin-top: 1.5rem; display: flex; align-items: center; gap: 0.75rem;
+  border-radius: 12px; background: var(--bg); border: 1px solid var(--line-soft); padding: 0.75rem 1rem;
+}
+.hero-card-note .star { color: var(--gold); font-size: 18px; }
+.hero-card-note p { font-size: 13px; color: var(--text-soft); }
+.hero-card-note b { color: var(--text); }
+
+.scroll-hint {
+  position: absolute; bottom: 1.75rem; left: 50%; transform: translateX(-50%);
+  display: none; flex-direction: column; align-items: center; gap: 0.5rem;
+  color: color-mix(in srgb, var(--text-soft) 60%, transparent);
+}
+.scroll-hint .lbl { font-size: 11px; text-transform: uppercase; letter-spacing: 0.28em; }
+.scroll-hint .line { width: 1px; height: 32px; background: linear-gradient(to bottom, var(--text-soft), transparent); }
+@media (min-width: 640px) { .scroll-hint { display: flex; } }
+
+/* ---------- Surfaces ---------- */
+.bg-clinic { background: var(--bg); }
+.bg-tint { background: color-mix(in srgb, var(--sage-soft) 40%, var(--bg)); border-block: 1px solid var(--line-soft); }
+
+/* ---------- Intro strip ---------- */
+.intro { max-width: 52rem; margin-inline: auto; text-align: center; }
+.intro p.big {
+  font-family: var(--font-serif); font-size: clamp(1.5rem, 3.6vw, 2.4rem); line-height: 1.35; color: var(--text);
+}
+
+/* ---------- Section heads ---------- */
+.head { max-width: 40rem; margin-bottom: 3.25rem; }
+.head h2 { font-size: clamp(2rem, 4.5vw, 3.2rem); color: var(--text); }
+.head p { margin-top: 1rem; font-size: 16px; color: var(--text-soft); }
+
+/* ---------- BENTO services ---------- */
+.bento {
+  display: grid; gap: 1.1rem;
+  grid-template-columns: 1fr;
+}
+@media (min-width: 640px) { .bento { grid-template-columns: repeat(2, 1fr); } }
+@media (min-width: 1000px) { .bento { grid-template-columns: repeat(6, 1fr); grid-auto-rows: 1fr; } }
+
+.svc {
+  position: relative; display: flex; flex-direction: column;
+  border-radius: var(--radius-lg); background: var(--surface);
+  border: 1px solid var(--line); padding: 1.6rem;
+  transition: transform .4s var(--ease), box-shadow .4s var(--ease), border-color .4s var(--ease);
+  min-height: 200px;
+}
+.svc:hover { transform: translateY(-6px); box-shadow: var(--shadow-card); border-color: color-mix(in srgb, var(--sage) 45%, var(--line)); }
+/* premium: feature card gets a soft gold top-accent that brightens on hover (transform/opacity-free, paint only) */
+.svc.feature::before {
+  content: ""; position: absolute; inset: 0 0 auto 0; height: 3px; border-radius: var(--radius-lg) var(--radius-lg) 0 0;
+  background: linear-gradient(90deg, transparent, var(--gold), var(--sage), transparent);
+  opacity: 0.5; transition: opacity .4s var(--ease);
+}
+.svc.feature:hover::before { opacity: 1; }
+/* bento spans (desktop) */
+@media (min-width: 1000px) {
+  .svc { grid-column: span 2; }
+  .svc.feature { grid-column: span 3; grid-row: span 2; }
+  .svc.wide { grid-column: span 3; }
+  .svc.tall { grid-row: span 2; }
+}
+.svc-top { display: flex; align-items: center; justify-content: space-between; margin-bottom: 1.1rem; }
+.svc-num { font-size: 12px; font-weight: 700; color: var(--sage-deep); letter-spacing: 0.28em; }
+.svc-tag { font-size: 11px; padding: 0.3rem 0.65rem; border-radius: 999px; background: var(--sage-soft); color: var(--sage-deep); font-weight: 600; }
+.svc h3 { font-family: var(--font-serif); font-size: 1.3rem; color: var(--text); line-height: 1.2; }
+.svc.feature h3 { font-size: clamp(1.5rem, 3vw, 2.1rem); }
+.svc p { margin-top: 0.7rem; font-size: 14.5px; color: var(--text-soft); flex-grow: 1; }
+.svc-foot {
+  margin-top: 1.4rem; padding-top: 1.1rem; border-top: 1px solid var(--line-soft);
+  display: flex; align-items: center; justify-content: space-between;
+}
+.svc-foot .price { font-size: 13.5px; color: var(--text-soft); }
+.svc-foot .price b { color: var(--text); }
+.svc-foot a { font-size: 13.5px; font-weight: 600; color: var(--sage-deep); display: inline-flex; align-items: center; gap: 0.35rem; transition: gap .3s var(--ease); }
+.svc-foot a:hover { gap: 0.65rem; }
+.svc.feature .svc-icon {
+  display: inline-grid; place-items: center; width: 52px; height: 52px; border-radius: 16px;
+  background: var(--gold-soft); color: var(--gold); margin-bottom: 1.1rem;
+}
+.note-line { margin-top: 2rem; font-size: 13px; color: color-mix(in srgb, var(--text-soft) 85%, transparent); }
+
+/* ---------- Neden biz ---------- */
+.why-grid { display: grid; gap: clamp(2.5rem, 5vw, 3.5rem); }
+@media (min-width: 1024px) { .why-grid { grid-template-columns: 4fr 8fr; } }
+.why-cards { display: grid; gap: 1.1rem; }
+@media (min-width: 640px) { .why-cards { grid-template-columns: repeat(2, 1fr); } }
+.usp {
+  border-radius: var(--radius); background: var(--surface);
+  border: 1px solid var(--line); padding: 1.6rem;
+  box-shadow: var(--shadow-inset-soft);
+  transition: transform .4s var(--ease), box-shadow .4s var(--ease);
+}
+.usp:hover { transform: translateY(-5px); box-shadow: var(--shadow-card); }
+.usp-icon { display: inline-grid; place-items: center; width: 44px; height: 44px; border-radius: 13px; margin-bottom: 1.1rem; }
+.usp-icon.sage { background: var(--sage-soft); color: var(--sage-deep); }
+.usp-icon.gold { background: var(--gold-soft); color: var(--gold); }
+.usp h3 { font-family: var(--font-sans); font-weight: 700; font-size: 18px; color: var(--text); }
+.usp p { margin-top: 0.6rem; font-size: 14.5px; color: var(--text-soft); }
+.link-arrow { display: inline-flex; align-items: center; gap: 0.4rem; margin-top: 1.75rem; font-size: 14px; font-weight: 600; color: var(--text); position: relative; }
+.link-arrow::after { content: ""; position: absolute; left: 0; bottom: -4px; height: 1.5px; width: 0; background: currentColor; transition: width .3s var(--ease); }
+.link-arrow:hover::after { width: 100%; }
+
+/* ---------- Gallery placeholders (CSS only) ---------- */
+.gallery-head { display: flex; flex-direction: column; gap: 1rem; margin-bottom: 3rem; }
+@media (min-width: 640px) { .gallery-head { flex-direction: row; align-items: flex-end; justify-content: space-between; } }
+.gallery-head .note { font-size: 13px; color: var(--text-soft); max-width: 24rem; }
+.gallery-head .note b { color: var(--text); }
+@media (min-width: 640px) { .gallery-head .note { text-align: right; } }
+
+.ph { position: relative; overflow: hidden; }
+.ph-1 { background: linear-gradient(140deg, var(--sage-soft), color-mix(in srgb, var(--gold) 13%, transparent) 70%, color-mix(in srgb, var(--sage) 27%, transparent)); }
+.ph-2 { background: linear-gradient(140deg, var(--gold-soft), var(--bg) 60%, color-mix(in srgb, var(--sage) 20%, transparent)); }
+.ph-3 { background: linear-gradient(140deg, color-mix(in srgb, var(--sage-soft) 80%, var(--bg)), var(--bg) 55%, color-mix(in srgb, var(--gold) 20%, transparent)); }
+.ph-4 { background: linear-gradient(140deg, var(--surface-2), var(--sage-soft) 55%, color-mix(in srgb, var(--gold) 16%, transparent)); }
+.ph::after { content: ""; position: absolute; inset: 0; background: radial-gradient(120px 120px at 30% 25%, rgba(255,255,255,0.55), transparent 70%); }
+
+.ba-grid { display: grid; gap: 1.1rem; margin-bottom: 1.1rem; }
+@media (min-width: 1024px) { .ba-grid { grid-template-columns: repeat(2, 1fr); } }
+.ba-frame { border-radius: var(--radius); border: 1px solid var(--line); background: var(--surface); padding: 0.75rem; }
+.ba-frame.after { border-color: color-mix(in srgb, var(--sage) 40%, var(--line)); }
+.ba-inner { border-radius: 14px; aspect-ratio: 4/3; display: grid; place-items: center; }
+.ba-label { display: inline-block; padding: 0.3rem 0.8rem; border-radius: 999px; font-size: 11px; text-transform: uppercase; letter-spacing: 0.22em; font-weight: 600; }
+.ba-label.before { background: color-mix(in srgb, var(--surface) 70%, transparent); color: var(--text-soft); }
+.ba-label.after { background: var(--sage); color: #fff; }
+.ba-cap { margin-top: 0.75rem; font-size: 13px; color: color-mix(in srgb, var(--text-soft) 85%, transparent); max-width: 18ch; margin-inline: auto; }
+
+.tiles { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1.1rem; }
+@media (min-width: 640px) { .tiles { grid-template-columns: repeat(4, 1fr); } }
+.tile { border-radius: var(--radius); aspect-ratio: 1; display: grid; place-items: center; }
+.tile span { font-size: 12px; color: color-mix(in srgb, var(--text-soft) 80%, transparent); padding-inline: 0.75rem; text-align: center; }
+.gallery-foot { margin-top: 1.5rem; font-size: 12.5px; font-style: italic; color: color-mix(in srgb, var(--text-soft) 75%, transparent); }
+
+/* ---------- Reviews ---------- */
+.reviews { display: grid; gap: 1.1rem; }
+@media (min-width: 640px) { .reviews { grid-template-columns: repeat(2, 1fr); } }
+@media (min-width: 1000px) { .reviews { grid-template-columns: repeat(3, 1fr); } }
+.review {
+  display: flex; flex-direction: column;
+  border-radius: var(--radius); background: color-mix(in srgb, var(--sage-soft) 40%, var(--bg));
+  border: 1px solid var(--line); padding: 1.6rem;
+  transition: transform .4s var(--ease), box-shadow .4s var(--ease);
+}
+.review:hover { transform: translateY(-5px); box-shadow: var(--shadow-card); }
+.review .stars { margin-bottom: 1rem; }
+.review p.quote { font-size: 15px; color: var(--text); flex-grow: 1; }
+.review-by { margin-top: 1.5rem; display: flex; align-items: center; gap: 0.75rem; }
+.avatar { width: 40px; height: 40px; border-radius: 999px; background: var(--sage); color: #fff; display: grid; place-items: center; font-weight: 700; font-size: 15px; flex-shrink: 0; }
+.review-by .name { font-size: 14px; font-weight: 700; color: var(--text); }
+.review-by .meta { font-size: 12px; color: var(--text-soft); }
+
+/* ---------- Contact ---------- */
+.contact-grid { display: grid; gap: clamp(2.5rem, 5vw, 3.5rem); }
+@media (min-width: 1024px) { .contact-grid { grid-template-columns: 5fr 7fr; } }
+.info-list { margin-top: 2rem; display: flex; flex-direction: column; gap: 1.25rem; font-size: 15px; }
+.info-item { display: flex; align-items: flex-start; gap: 0.85rem; }
+.info-item svg { color: var(--sage-deep); margin-top: 2px; flex-shrink: 0; }
+.info-item .k { font-weight: 600; color: var(--text); }
+.info-item .v { color: var(--text-soft); }
+.info-item a.v:hover { color: var(--text); }
+.map-wrap { margin-top: 2rem; border-radius: var(--radius); overflow: hidden; border: 1px solid var(--line); box-shadow: var(--shadow-inset-soft); }
+.map-wrap iframe { width: 100%; height: 256px; border: 0; display: block; }
+
+.form-card {
+  border-radius: var(--radius-lg); background: var(--surface); border: 1px solid var(--line);
+  padding: clamp(1.6rem, 4vw, 2.5rem); box-shadow: var(--shadow-soft);
+}
+.form-card h3 { font-family: var(--font-serif); font-size: 1.6rem; color: var(--text); }
+.form-card .sub { margin-top: 0.5rem; font-size: 14px; color: var(--text-soft); }
+.form { margin-top: 1.75rem; display: grid; gap: 1rem; }
+@media (min-width: 560px) { .form { grid-template-columns: repeat(2, 1fr); } }
+.field { display: flex; flex-direction: column; }
+.field.full { grid-column: 1 / -1; }
+.field label { font-size: 13px; font-weight: 600; color: var(--text); margin-bottom: 0.4rem; }
+.field input, .field select, .field textarea {
+  width: 100%; border-radius: 12px; border: 1px solid var(--line);
+  background: var(--bg); padding: 0.8rem 1rem; font-size: 14.5px; color: var(--text);
+  font-family: inherit; transition: border-color .25s var(--ease), box-shadow .25s var(--ease);
+}
+.field textarea { resize: vertical; min-height: 110px; }
+.field input::placeholder, .field textarea::placeholder { color: color-mix(in srgb, var(--text-soft) 55%, transparent); }
+.field input:focus, .field select:focus, .field textarea:focus {
+  outline: none; border-color: var(--sage);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--sage) 30%, transparent);
+}
+.form-actions { grid-column: 1 / -1; display: flex; flex-direction: column; gap: 0.75rem; margin-top: 0.25rem; }
+@media (min-width: 560px) { .form-actions { flex-direction: row; } }
+.form-actions .btn-primary { flex-grow: 1; }
+.form-disclaimer { margin-top: 1rem; font-size: 12px; color: color-mix(in srgb, var(--text-soft) 80%, transparent); }
+
+/* ---------- Footer ---------- */
+.footer { background: #11201D; color: #E6ECE8; }
+@media (prefers-color-scheme: dark) { .footer { background: #0A1411; } }
+.footer-grid { display: grid; gap: 2.5rem; }
+@media (min-width: 768px) { .footer-grid { grid-template-columns: 5fr 3fr 4fr; } }
+.footer-brand { display: flex; align-items: center; gap: 0.65rem; margin-bottom: 1rem; }
+.footer-mark { display: inline-grid; place-items: center; width: 36px; height: 36px; border-radius: 999px; border: 1px solid rgba(255,255,255,0.3); }
+.footer-name { font-size: 17px; font-weight: 700; }
+.footer-tag { font-size: 14px; color: rgba(230,236,232,0.7); max-width: 24rem; }
+.footer-col h4 { font-family: var(--font-sans); font-size: 12px; text-transform: uppercase; letter-spacing: 0.22em; color: rgba(230,236,232,0.5); margin-bottom: 1rem; font-weight: 600; }
+.footer-col ul { display: flex; flex-direction: column; gap: 0.65rem; font-size: 14px; color: rgba(230,236,232,0.8); }
+/* premium: animated underline micro-interaction on footer links */
+.footer-col a { position: relative; transition: color .3s var(--ease); }
+.footer-col a::after {
+  content: ""; position: absolute; left: 0; bottom: -2px; height: 1px; width: 0;
+  background: var(--gold); transition: width .3s var(--ease);
+}
+.footer-col a:hover { color: #fff; }
+.footer-col a:hover::after { width: 100%; }
+.footer-bottom {
+  margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid rgba(255,255,255,0.1);
+  display: flex; flex-direction: column; gap: 0.75rem; font-size: 12.5px; color: rgba(230,236,232,0.55);
+}
+@media (min-width: 640px) { .footer-bottom { flex-direction: row; align-items: center; justify-content: space-between; } }
+.honesty { margin-top: 1.25rem; font-size: 11.5px; color: rgba(230,236,232,0.42); line-height: 1.6; }
+
+/* ---------- Fixed WhatsApp float ---------- */
+.wa-float {
+  position: fixed; bottom: 1.25rem; right: 1.25rem; z-index: 80;
+  display: inline-grid; place-items: center; width: 56px; height: 56px;
+  border-radius: 999px; background: #25D366; color: #fff;
+  box-shadow: 0 12px 30px -8px rgba(37,211,102,0.6);
+  transition: transform .25s var(--ease);
+}
+.wa-float:hover { transform: scale(1.06); }
+.wa-float:active { transform: scale(0.95); }
+.wa-float::before {
+  content: ""; position: absolute; inset: 0; border-radius: 999px;
+  box-shadow: 0 0 0 0 rgba(37,211,102,0.45);
+  animation: waPulse 2.6s ease-out infinite;
+}
+@keyframes waPulse {
+  0% { box-shadow: 0 0 0 0 rgba(37,211,102,0.45); }
+  70% { box-shadow: 0 0 0 14px rgba(37,211,102,0); }
+  100% { box-shadow: 0 0 0 0 rgba(37,211,102,0); }
+}
+/* lift WA float above the mobile CTA bar on small screens */
+@media (max-width: 767px) { .wa-float { bottom: 5.5rem; } }
+
+/* ---------- Sticky mobile CTA bar ---------- */
+.mobile-cta {
+  position: fixed; inset: auto 0 0 0; z-index: 85;
+  display: flex; gap: 0.6rem; padding: 0.7rem 0.85rem;
+  padding-bottom: calc(0.7rem + env(safe-area-inset-bottom, 0px));
+  background: color-mix(in srgb, var(--bg) 92%, transparent);
+  -webkit-backdrop-filter: blur(14px); backdrop-filter: blur(14px);
+  border-top: 1px solid var(--line);
+  box-shadow: 0 -10px 30px -18px rgba(31,42,40,0.4);
+}
+.mobile-cta a {
+  flex: 1; display: inline-flex; align-items: center; justify-content: center; gap: 0.45rem;
+  border-radius: 999px; font-weight: 600; font-size: 14.5px; padding: 0.85rem 1rem;
+}
+.mobile-cta .cta-book { background: var(--ink); color: var(--clinic); }
+.mobile-cta .cta-wa { background: #25D366; color: #fff; }
+@media (min-width: 768px) { .mobile-cta { display: none; } }
+/* pad page bottom on mobile so content isn't hidden behind the bar */
+@media (max-width: 767px) { body { padding-bottom: 4.5rem; } }
+
+/* ---------- Toast ---------- */
+.toast {
+  position: fixed; bottom: 6.5rem; left: 50%; transform: translate(-50%, 12px);
+  z-index: 95; opacity: 0; pointer-events: none;
+  transition: opacity .35s var(--ease), transform .35s var(--ease);
+}
+.toast.show { opacity: 1; transform: translate(-50%, 0); pointer-events: auto; }
+.toast-inner {
+  display: flex; align-items: center; gap: 0.75rem;
+  background: var(--ink); color: var(--clinic); padding: 0.75rem 1.25rem 0.75rem 1rem;
+  border-radius: 999px; box-shadow: var(--shadow-card);
+}
+.toast-check { display: inline-grid; place-items: center; width: 24px; height: 24px; border-radius: 999px; background: var(--sage); color: #fff; font-size: 13px; }
+.toast-inner span.msg { font-size: 14px; font-weight: 500; }
+@media (min-width: 768px) { .toast { bottom: 6rem; } }
+
+/* ---------- Reveal (JS-driven, reduced-motion safe) ---------- */
+.pre-reveal { opacity: 0; transform: translateY(26px); }
+
+@media (prefers-reduced-motion: reduce) {
+  .btn, .btn-sheen::after, .nav-link::after, .link-arrow::after,
+  .svc, .usp, .review, .mobile-menu, .toast, .wa-float, .brand-mark { transition: none !important; }
+  .svc.feature::before, .footer-col a::after { transition: none !important; }
+  .wa-float::before { animation: none; }
+  .kinetic.stagger .kw { opacity: 1; transform: none; }
+}
+
+/* dark-mode contrast: muted captions stay readable (avoid transparent-mix dropping below ~4.5:1) */
+@media (prefers-color-scheme: dark) {
+  .ba-cap, .gallery-foot, .note-line, .tile span, .form-disclaimer { color: var(--text-soft) !important; }
+}
+
+/* ============================================================
+   ADD-ONS (non-destructive): real-photo slots, hero parallax,
+   cursor-follow glow, signature petal/ripple animation.
+   ALL transform/opacity. Decorative bits are desktop-only +
+   reduced-motion safe. Gradient fallbacks always live BELOW
+   the photo layers, so a missing img/*.jpg degrades gracefully.
+   ============================================================ */
+
+/* ---- HERO photo layer (sits over --hero-bg gradient, under content) ---- */
+.hero-photo {
+  position: absolute; inset: 0; z-index: 0; pointer-events: none;
+  background-image: url('img/hero.jpg');
+  background-size: cover; background-position: center;
+  /* If img/hero.jpg 404s, this layer simply renders nothing visible
+     (no broken-image icon for CSS bg) → gradient below stays intact. */
+  /* NOTE: will-change is NOT set here — it would force a wasted compositor
+     layer on mobile/touch where parallax never runs. JS adds .is-parallax
+     (desktop only) right before the scrub starts; see initMotion(). */
+}
+/* compositor hint only when parallax is actually active (desktop) */
+.hero-photo.is-parallax { will-change: transform; }
+/* readability scrim so headline stays crisp whether photo loads or not.
+   When no photo: scrim is very subtle over the gradient (still fine). */
+.hero-scrim {
+  position: absolute; inset: 0; z-index: 0; pointer-events: none;
+  background:
+    linear-gradient(105deg,
+      color-mix(in srgb, var(--bg) 62%, transparent) 0%,
+      color-mix(in srgb, var(--bg) 30%, transparent) 46%,
+      transparent 78%),
+    linear-gradient(to top,
+      color-mix(in srgb, var(--bg) 40%, transparent) 0%,
+      transparent 32%);
+}
+@media (prefers-color-scheme: dark) {
+  .hero-scrim {
+    background:
+      linear-gradient(105deg,
+        color-mix(in srgb, var(--bg) 72%, transparent) 0%,
+        color-mix(in srgb, var(--bg) 40%, transparent) 46%,
+        transparent 80%),
+      linear-gradient(to top,
+        color-mix(in srgb, var(--bg) 55%, transparent) 0%,
+        transparent 34%);
+  }
+}
+/* keep hero content above photo+scrim+decor */
+.hero .wrap.hero-grid { position: relative; z-index: 3; }
+.hero .scroll-hint { z-index: 3; }
+/* hero noise overlay should ride above the photo */
+.hero::before { z-index: 1; }
+
+/* ---- Cursor-follow soft radial glow (one element, desktop only) ---- */
+.hero-glow {
+  position: absolute; top: 0; left: 0; z-index: 2; pointer-events: none;
+  width: 460px; height: 460px; margin: -230px 0 0 -230px; border-radius: 999px;
+  background: radial-gradient(circle,
+    color-mix(in srgb, var(--gold) 38%, transparent) 0%,
+    color-mix(in srgb, var(--sage) 20%, transparent) 38%,
+    transparent 70%);
+  opacity: 0; transform: translate3d(-9999px, -9999px, 0);
+  transition: opacity .5s var(--ease);
+  mix-blend-mode: screen;
+  will-change: transform, opacity;
+  display: none; /* enabled by JS on desktop only */
+}
+@media (prefers-color-scheme: dark) {
+  .hero-glow { mix-blend-mode: screen; }
+}
+
+/* ---- Signature animation: suzulen yapraklar + sakin ripple ---- */
+.hero-signature { position: absolute; inset: 0; z-index: 1; pointer-events: none; overflow: hidden; }
+
+/* slow expanding calm rings (ripple) — single source point, transform/opacity */
+.ripple {
+  position: absolute; left: 16%; bottom: 18%;
+  width: 120px; height: 120px; margin: -60px 0 0 -60px; border-radius: 999px;
+  border: 1px solid color-mix(in srgb, var(--sage) 55%, transparent);
+  opacity: 0;
+  transform: scale(.3);
+  animation: rippleOut 9s var(--ease) infinite;
+}
+.ripple.r2 { animation-delay: 3s; }
+.ripple.r3 { animation-delay: 6s; border-color: color-mix(in srgb, var(--gold) 55%, transparent); }
+@keyframes rippleOut {
+  0%   { opacity: 0;    transform: scale(.3); }
+  12%  { opacity: .55; }
+  100% { opacity: 0;    transform: scale(3.4); }
+}
+
+/* drifting leaves — only 2, very slow translateY + rotate (transform/opacity) */
+.leaf {
+  position: absolute; width: 26px; height: 26px;
+  color: color-mix(in srgb, var(--sage-deep) 70%, transparent);
+  opacity: 0;
+  will-change: transform, opacity;
+}
+.leaf svg { width: 100%; height: 100%; display: block; }
+.leaf.l1 { right: 14%; top: -4%;  animation: leafDrift 22s linear infinite; }
+.leaf.l2 { right: 30%; top: -8%;  color: color-mix(in srgb, var(--gold) 70%, transparent); animation: leafDrift 28s linear infinite; animation-delay: 9s; transform: scale(.8); }
+@keyframes leafDrift {
+  0%   { opacity: 0;   transform: translate3d(0, -10px, 0) rotate(-8deg); }
+  8%   { opacity: .5; }
+  50%  { opacity: .45; transform: translate3d(-46px, 52svh, 0) rotate(170deg); }
+  92%  { opacity: .35; }
+  100% { opacity: 0;   transform: translate3d(8px, 108svh, 0) rotate(360deg); }
+}
+
+/* ---- GALLERY real-photo layers (over the gradient .ph fallback) ---- */
+/* The .ph element keeps its gradient; .ph-img sits on top with the photo.
+   Missing img → nothing renders → gradient shows. */
+.ph-img {
+  position: absolute; inset: 0; z-index: 1;
+  background-size: cover; background-position: center;
+  background-repeat: no-repeat;
+}
+/* low-priority decode hint for bg images */
+.ph-img { content-visibility: auto; }
+.tile .ph-img.g1 { background-image: url('img/g1.jpg'); }
+.tile .ph-img.g2 { background-image: url('img/g2.jpg'); }
+.tile .ph-img.g3 { background-image: url('img/g3.jpg'); }
+.tile .ph-img.g4 { background-image: url('img/g4.jpg'); }
+/* keep the tile caption legible above any photo */
+.tile span { position: relative; z-index: 2; }
+.tile .ph-img + span,
+.tile span {
+  background: color-mix(in srgb, var(--bg) 0%, transparent);
+}
+/* when a photo is present, give the caption a soft chip so it stays readable */
+.tile .ph-img ~ span {
+  background: color-mix(in srgb, var(--bg) 70%, transparent);
+  -webkit-backdrop-filter: blur(4px); backdrop-filter: blur(4px);
+  border-radius: 999px; padding: 0.35rem 0.8rem;
+}
+
+/* ---- Reduced motion: kill all decorative motion, keep content/photos ---- */
+@media (prefers-reduced-motion: reduce) {
+  .ripple, .leaf { animation: none !important; opacity: 0 !important; }
+  .hero-glow { display: none !important; }
+  .hero-photo { will-change: auto; }
+}
+/* ---- Non-desktop: no signature/glow churn (battery-friendly) ---- */
+@media not all and (pointer: fine) {
+  .hero-glow { display: none !important; }
+}
+@media not all and (hover: hover) {
+  .hero-glow { display: none !important; }
+}
+</style>
+</head>
+
+<body>
+
+<a class="skip-nav" href="#main">İçeriğe atla</a>
+
+<!-- ============ NAVBAR ============ -->
+<header id="navbar" class="header">
+  <nav class="wrap nav" aria-label="Ana menü">
+    <a href="#hero" class="brand">
+      <span class="brand-mark" aria-hidden="true">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 3c0 4-3 6-3 9a3 3 0 0 0 6 0c0-3-3-5-3-9Z"/><path d="M5.5 14.5c1.8 1 3 2.6 3 4.5" opacity=".5"/><path d="M18.5 14.5c-1.8 1-3 2.6-3 4.5" opacity=".5"/></svg>
+      </span>
+      <span class="brand-name" data-config="ad-nav">DERME</span>
+    </a>
+
+    <div class="nav-links">
+      <a href="#hizmetler" class="nav-link">Hizmetler</a>
+      <a href="#neden" class="nav-link">Neden Biz</a>
+      <a href="#galeri" class="nav-link">Galeri</a>
+      <a href="#yorumlar" class="nav-link">Yorumlar</a>
+      <a href="#iletisim" class="nav-link">İletişim</a>
+    </div>
+
+    <a href="#iletisim" class="btn btn-primary btn-sheen nav-cta" style="padding:0.65rem 1.25rem; font-size:13.5px;">Randevu Al</a>
+
+    <button id="menuBtn" class="menu-btn" aria-label="Menüyü aç" aria-expanded="false" aria-controls="mobileMenu">
+      <svg id="menuIcon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+    </button>
+  </nav>
+
+  <div id="mobileMenu" class="mobile-menu hidden">
+    <div class="mobile-menu-inner">
+      <a href="#hizmetler" class="m-link">Hizmetler</a>
+      <a href="#neden" class="m-link">Neden Biz</a>
+      <a href="#galeri" class="m-link">Galeri</a>
+      <a href="#yorumlar" class="m-link">Yorumlar</a>
+      <a href="#iletisim" class="m-link">İletişim</a>
+      <a href="#iletisim" class="m-link cta">Randevu Al</a>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+<!-- ============ HERO ============ -->
+<section id="hero" class="hero">
+  <!-- Real-photo layer: img/hero.jpg (cover). 404 → gradient (--hero-bg) stays visible. -->
+  <div class="hero-photo" data-parallax aria-hidden="true"></div>
+  <!-- Readability scrim so headline stays crisp with or without a photo -->
+  <div class="hero-scrim" aria-hidden="true"></div>
+  <!-- Signature animation: sakin ripple + suzulen yapraklar (desktop+motion only) -->
+  <div class="hero-signature" aria-hidden="true">
+    <span class="ripple r1"></span>
+    <span class="ripple r2"></span>
+    <span class="ripple r3"></span>
+    <span class="leaf l1"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M20 4c-9 0-15 5-16 12 4-3 7-4 11-4-3 1-6 3-8 7 1 .5 2 1 3 1 7 0 11-6 10-16Z"/></svg></span>
+    <span class="leaf l2"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M20 4c-9 0-15 5-16 12 4-3 7-4 11-4-3 1-6 3-8 7 1 .5 2 1 3 1 7 0 11-6 10-16Z"/></svg></span>
+  </div>
+  <!-- Cursor-follow soft glow (one element, pointer-events:none; JS-enabled desktop only) -->
+  <div id="heroGlow" class="hero-glow" aria-hidden="true"></div>
+
+  <div class="wrap hero-grid">
+
+    <div data-reveal>
+      <div class="badge">
+        <span class="dot" aria-hidden="true"></span>
+        Kadıköy · Cilt Bakım & Estetik
+      </div>
+
+      <h1 class="kinetic stagger" id="heroTitle">
+        <span class="kw">Cildinize</span><br />
+        <span class="kw serif-i">sakin</span> <span class="kw">bir</span> <span class="kw">dokunuş.</span>
+      </h1>
+
+      <p class="hero-lead">
+        Steril ortam, uzman estetisyen ve kişiye özel bakım planı. Acelesiz, abartısız,
+        sonuç odaklı bir cilt bakım deneyimi — tam da hak ettiğiniz gibi.
+      </p>
+
+      <div class="hero-actions">
+        <a id="heroCta" href="#iletisim" class="btn btn-primary btn-sheen">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M.057 24l1.687-6.163a11.867 11.867 0 0 1-1.587-5.946C.16 5.335 5.495 0 12.05 0a11.82 11.82 0 0 1 8.413 3.488 11.824 11.824 0 0 1 3.48 8.414c-.003 6.557-5.338 11.892-11.893 11.892a11.9 11.9 0 0 1-5.688-1.448L.057 24zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884a9.86 9.86 0 0 0 1.51 5.26l-.999 3.648 3.477-.911z"/></svg>
+          WhatsApp'tan Randevu
+        </a>
+        <a href="#hizmetler" class="btn btn-ghost">Hizmetleri Gör</a>
+      </div>
+
+      <!-- Trust signal (fold ustu): Google puani + mutlu musteri -->
+      <div class="trust-row" data-reveal>
+        <span class="trust-rating">
+          <span class="stars" aria-hidden="true">★★★★★</span>
+          <span><span class="num" data-config="puan">4.9</span>/5 Google puanı</span>
+        </span>
+        <span class="trust-sep" aria-hidden="true"></span>
+        <span class="trust-text"><b>500+</b> mutlu misafir</span>
+      </div>
+
+      <!-- Trust badges -->
+      <div class="trust-badges" data-reveal>
+        <div class="trust-badge">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M12 2 4 5v6c0 5 3.4 8.4 8 11 4.6-2.6 8-6 8-11V5l-8-3Z"/><path d="m9 12 2 2 4-4"/></svg>
+          <span>Steril & hijyenik ortam</span>
+        </div>
+        <div class="trust-badge">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M12 14a5 5 0 1 0 0-10 5 5 0 0 0 0 10Z"/><path d="m8 13-1.5 7L12 17l5.5 3L16 13"/></svg>
+          <span>Uzman estetisyen</span>
+        </div>
+        <div class="trust-badge">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M20 7h-9M14 17H5M17 17a3 3 0 1 0 0-6 3 3 0 0 0 0 6ZM7 13a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"/></svg>
+          <span>Kişiye özel bakım</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Hero side card (selective glass depth) -->
+    <div data-reveal>
+      <div class="hero-card-wrap">
+        <div class="hero-card-glow" aria-hidden="true"></div>
+        <div class="hero-card">
+          <div class="hero-card-top">
+            <p class="label">Bugünün ritüeli</p>
+            <span style="color:var(--gold); font-size:12px;" aria-hidden="true">✦</span>
+          </div>
+          <p class="hero-card-title">Temizlik · Bakım · Işıltı</p>
+          <hr class="hairline" style="margin: 1.25rem 0;" />
+          <ul class="ritual-list">
+            <li><span class="ritual-num">01</span> Cilt analizi & danışma</li>
+            <li><span class="ritual-num">02</span> Kişiye özel bakım planı</li>
+            <li><span class="ritual-num">03</span> Evde bakım önerileri</li>
+          </ul>
+          <div class="hero-card-note">
+            <span class="star" aria-hidden="true">★</span>
+            <p>Hedefimiz <b data-config="puan">4.9</b> / 5 misafir memnuniyeti</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="scroll-hint" data-reveal aria-hidden="true">
+    <span class="lbl">Keşfet</span>
+    <span class="line"></span>
+  </div>
+</section>
+
+<!-- ============ MINI INTRO STRIP ============ -->
+<section class="section bg-clinic">
+  <div class="wrap intro" data-reveal>
+    <p class="eyebrow">Felsefemiz</p>
+    <p class="big">
+      Cilt bakımı bir lüks değil, <span class="serif-i">kendinize ayırdığınız bir mola.</span>
+      Acele etmeyiz; cildinizi dinler, ihtiyacına göre çalışırız.
+    </p>
+  </div>
+</section>
+
+<!-- ============ HİZMETLER (BENTO) ============ -->
+<section id="hizmetler" class="section bg-tint">
+  <div class="wrap">
+    <div class="head" data-reveal>
+      <p class="eyebrow">Hizmetlerimiz</p>
+      <h2>Cildinizin ihtiyacına göre.</h2>
+      <p>Her bakım, kişiye özel cilt analiziyle başlar. Fiyatlar bakımın kapsamına göre değişir — netleştirmek için bize yazın.</p>
+    </div>
+
+    <div id="serviceGrid" class="bento">
+      <!-- cards injected by JS from SALON.hizmetler -->
+    </div>
+
+    <p class="note-line" data-reveal>Tüm bakımlar randevu ile yapılır. Hamilelik, alerji veya cilt rahatsızlığı durumunda lütfen randevu öncesi bizi bilgilendirin.</p>
+  </div>
+</section>
+
+<!-- ============ NEDEN BİZ ============ -->
+<section id="neden" class="section bg-clinic">
+  <div class="wrap why-grid">
+    <div data-reveal>
+      <p class="eyebrow">Neden DERME</p>
+      <h2 style="font-size:clamp(2rem,4.5vw,3rem);">Güveni önce<br/>hijyenle kazanırız.</h2>
+      <p style="margin-top:1.25rem; font-size:16px; color:var(--text-soft);">Abartılı vaatler yerine, tutarlı ve şeffaf bir hizmet. Cildiniz için neyin doğru olduğunu birlikte konuşuruz.</p>
+      <a href="#iletisim" class="link-arrow">Bize ulaşın →</a>
+    </div>
+
+    <div class="why-cards">
+      <div class="usp" data-reveal>
+        <span class="usp-icon sage" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2 4 5v6c0 5 3.4 8.4 8 11 4.6-2.6 8-6 8-11V5l-8-3Z"/><path d="m9 12 2 2 4-4"/></svg></span>
+        <h3>Steril & hijyenik ortam</h3>
+        <p>Tek kullanımlık malzeme, sterilize edilen ekipman ve titiz temizlik standartları. Sağlığınız ilk önceliğimiz.</p>
+      </div>
+      <div class="usp" data-reveal>
+        <span class="usp-icon gold" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 14a5 5 0 1 0 0-10 5 5 0 0 0 0 10Z"/><path d="m8 13-1.5 7L12 17l5.5 3L16 13"/></svg></span>
+        <h3>Uzman estetisyen</h3>
+        <p>Deneyimli ve sürekli eğitim alan ekip. Cildinizi doğru okuyup en uygun bakımı uygular.</p>
+      </div>
+      <div class="usp" data-reveal>
+        <span class="usp-icon sage" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 20a8 8 0 1 0 0-16 8 8 0 0 0 0 16Z"/><path d="M12 8v4l3 2"/></svg></span>
+        <h3>Acelesiz, kişiye özel</h3>
+        <p>Seri üretim değil; her cilt farklı. Randevular geniş tutulur, bakımınız size göre planlanır.</p>
+      </div>
+      <div class="usp" data-reveal>
+        <span class="usp-icon gold" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 12h4l3 8 4-16 3 8h4"/></svg></span>
+        <h3>Şeffaf danışmanlık</h3>
+        <p>Gereksiz işlem önermeyiz. Cildinize neyin gerekli olduğunu açık açık konuşur, evde bakımı da anlatırız.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ GALERİ ============ -->
+<section id="galeri" class="section bg-tint">
+  <div class="wrap">
+    <div class="gallery-head" data-reveal>
+      <div>
+        <p class="eyebrow">Galeri</p>
+        <h2 style="font-size:clamp(2rem,4.5vw,3.2rem);">Çalışmalarımızdan.</h2>
+      </div>
+      <p class="note">Aşağıdaki kareler birer yer tutucudur — <b>kendi gerçek fotoğraflarınızla değiştirin.</b> Öncesi/sonrası kareleri en güçlü kanıttır.</p>
+    </div>
+
+    <div class="ba-grid" data-reveal>
+      <div class="ba-frame">
+        <div class="ph ph-1 ba-inner">
+          <div style="text-align:center;">
+            <span class="ba-label before">Öncesi</span>
+            <p class="ba-cap">Kendi öncesi fotoğrafınız buraya</p>
+          </div>
+        </div>
+      </div>
+      <div class="ba-frame after">
+        <div class="ph ph-3 ba-inner">
+          <div style="text-align:center;">
+            <span class="ba-label after">Sonrası</span>
+            <p class="ba-cap">Kendi sonrası fotoğrafınız buraya</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- İlk 4 kutu gerçek foto slotu: img/g1..g4.jpg (cover). 404 → altta gradient kalır. -->
+    <div class="tiles" data-reveal>
+      <div class="ph ph-2 tile"><span class="ph-img g1" aria-hidden="true"></span><span>Salon ortamı</span></div>
+      <div class="ph ph-4 tile"><span class="ph-img g2" aria-hidden="true"></span><span>Bakım anı</span></div>
+      <div class="ph ph-1 tile"><span class="ph-img g3" aria-hidden="true"></span><span>Ürünler</span></div>
+      <div class="ph ph-3 tile"><span class="ph-img g4" aria-hidden="true"></span><span>Detay</span></div>
+    </div>
+
+    <p class="gallery-foot" data-reveal>Not: Bu önizlemede gerçek/stok fotoğraf kullanılmamıştır. Yayına almadan önce kendi salon ve sonuç fotoğraflarınızı ekleyin.</p>
+  </div>
+</section>
+
+<!-- ============ YORUMLAR ============ -->
+<section id="yorumlar" class="section bg-clinic">
+  <div class="wrap">
+    <div class="head" data-reveal>
+      <p class="eyebrow">Yorumlar</p>
+      <h2>Misafirlerimizin hissettikleri.</h2>
+      <p style="font-size:14px;">Aşağıdakiler örnek-işaretli yer tutucu yorumlardır. Yayına almadan önce gerçek Google / Instagram yorumlarınızla değiştirin.</p>
+    </div>
+
+    <div id="reviewGrid" class="reviews">
+      <!-- review cards injected by JS -->
+    </div>
+  </div>
+</section>
+
+<!-- ============ İLETİŞİM ============ -->
+<section id="iletisim" class="section bg-tint">
+  <div class="wrap contact-grid">
+
+    <div data-reveal>
+      <p class="eyebrow">İletişim</p>
+      <h2 style="font-size:clamp(2rem,4.5vw,3rem);">Randevu için<br/>buradayız.</h2>
+
+      <div class="info-list">
+        <div class="info-item">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+          <div>
+            <p class="k">Adres</p>
+            <p class="v" data-config="adres">Moda Cad. No: __, Kadıköy / İstanbul</p>
+          </div>
+        </div>
+        <div class="info-item">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.8 19.8 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92Z"/></svg>
+          <div>
+            <p class="k">Telefon</p>
+            <a href="#" data-config-tel class="v" data-config="telefon">+90 5__ ___ __ __</a>
+          </div>
+        </div>
+        <div class="info-item">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
+          <div>
+            <p class="k">Çalışma Saatleri</p>
+            <p class="v">Pzt – Cmt: 10:00 – 20:00</p>
+            <p class="v">Pazar: Kapalı</p>
+          </div>
+        </div>
+        <div class="info-item">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg>
+          <div>
+            <p class="k">Instagram</p>
+            <a href="#" data-config-ig class="v" data-config="instagram">@derme.skin</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="map-wrap">
+        <iframe
+          id="mapFrame"
+          title="Konum haritası — Moda, Kadıköy"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          src="https://www.google.com/maps?q=Moda%2C%20Kad%C4%B1k%C3%B6y%2C%20%C4%B0stanbul&output=embed">
+        </iframe>
+      </div>
+    </div>
+
+    <!-- Form -->
+    <div data-reveal>
+      <div class="form-card">
+        <h3>Randevu / İletişim Formu</h3>
+        <p class="sub">Bilgilerinizi bırakın, en kısa sürede size dönelim. Acil randevu için doğrudan WhatsApp'tan yazabilirsiniz.</p>
+
+        <form id="contactForm" class="form" novalidate>
+          <div class="field">
+            <label for="f-ad">Ad Soyad</label>
+            <input id="f-ad" name="ad" type="text" required autocomplete="name" placeholder="Adınız" />
+          </div>
+          <div class="field">
+            <label for="f-tel">Telefon</label>
+            <input id="f-tel" name="telefon" type="tel" required autocomplete="tel" placeholder="05__ ___ __ __" />
+          </div>
+          <div class="field full">
+            <label for="f-hizmet">İlgilendiğiniz Hizmet</label>
+            <select id="f-hizmet" name="hizmet">
+              <option value="">Seçiniz (opsiyonel)</option>
+              <option>Klasik Cilt Bakımı</option>
+              <option>Hydrafacial</option>
+              <option>Leke Bakımı</option>
+              <option>Akne Bakımı</option>
+              <option>Ağda / Sır Epilasyon</option>
+              <option>Kaş & Kirpik Tasarımı</option>
+              <option>Emin değilim — önerin</option>
+            </select>
+          </div>
+          <div class="field full">
+            <label for="f-mesaj">Mesajınız</label>
+            <textarea id="f-mesaj" name="mesaj" rows="4" placeholder="Tercih ettiğiniz gün/saat veya sorularınız..."></textarea>
+          </div>
+          <div class="form-actions">
+            <button type="submit" class="btn btn-primary btn-sheen">Gönder</button>
+            <a id="formWa" href="#" class="btn btn-outline-sage">WhatsApp'tan yaz</a>
+          </div>
+        </form>
+        <p class="form-disclaimer">Formu göndererek size geri dönmemiz için iletişim bilgilerinizi paylaşmayı kabul edersiniz.</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="wrap" style="padding-block: 4rem;">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand">
+          <span class="footer-mark" aria-hidden="true">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 3c0 4-3 6-3 9a3 3 0 0 0 6 0c0-3-3-5-3-9Z"/></svg>
+          </span>
+          <span class="footer-name" data-config="ad-footer">DERME</span>
+        </div>
+        <p class="footer-tag" data-config="tagline-footer">Kadıköy'de sakin, hijyenik ve kişiye özel cilt bakımı.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Menü</h4>
+        <ul>
+          <li><a href="#hizmetler">Hizmetler</a></li>
+          <li><a href="#neden">Neden Biz</a></li>
+          <li><a href="#galeri">Galeri</a></li>
+          <li><a href="#iletisim">İletişim</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>İletişim</h4>
+        <ul>
+          <li data-config="adres-footer">Moda Cad. No: __, Kadıköy / İstanbul</li>
+          <li><a href="#" data-config-tel data-config="telefon-footer">+90 5__ ___ __ __</a></li>
+          <li><a href="#" data-config-ig data-config="instagram-footer">@derme.skin</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© <span id="year">2026</span> <span data-config="ad-copyright">DERME Cilt Bakım & Estetik</span>. Tüm hakları saklıdır.</p>
+      <p>Kadıköy / İstanbul</p>
+    </div>
+
+    <!-- HONESTY LINE -->
+    <p class="honesty">
+      Bu sayfa <span data-config="ad-honesty">DERME Cilt Bakım & Estetik</span> için hazırlanmış bir TANITIM ÖNİZLEMESİDİR — resmî site değildir.
+    </p>
+  </div>
+</footer>
+
+<!-- ============ FIXED WHATSAPP ============ -->
+<a id="waFloat" href="#" aria-label="WhatsApp'tan yazın" class="wa-float">
+  <svg width="26" height="26" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M.057 24l1.687-6.163a11.867 11.867 0 0 1-1.587-5.946C.16 5.335 5.495 0 12.05 0a11.82 11.82 0 0 1 8.413 3.488 11.824 11.824 0 0 1 3.48 8.414c-.003 6.557-5.338 11.892-11.893 11.892a11.9 11.9 0 0 1-5.688-1.448L.057 24zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884a9.86 9.86 0 0 0 1.51 5.26l-.999 3.648 3.477-.911zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+</a>
+
+<!-- ============ STICKY MOBILE CTA BAR ============ -->
+<nav class="mobile-cta" aria-label="Hızlı işlemler">
+  <a class="cta-book" href="#iletisim">
+    <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="3"/><path d="M16 2v4M8 2v4M3 10h18"/></svg>
+    Randevu Al
+  </a>
+  <a id="ctaWa" class="cta-wa" href="#">
+    <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M.057 24l1.687-6.163a11.867 11.867 0 0 1-1.587-5.946C.16 5.335 5.495 0 12.05 0a11.82 11.82 0 0 1 8.413 3.488 11.824 11.824 0 0 1 3.48 8.414c-.003 6.557-5.338 11.892-11.893 11.892a11.9 11.9 0 0 1-5.688-1.448L.057 24zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884a9.86 9.86 0 0 0 1.51 5.26l-.999 3.648 3.477-.911z"/></svg>
+    WhatsApp
+  </a>
+</nav>
+
+<!-- ============ TOAST ============ -->
+<div id="toast" class="toast" role="status" aria-live="polite">
+  <div class="toast-inner">
+    <span class="toast-check" aria-hidden="true">✓</span>
+    <span class="msg" id="toastMsg">Teşekkürler! En kısa sürede size döneceğiz.</span>
+  </div>
+</div>
+
+<!-- ============ CDN (defer) ============ -->
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/@studio-freight/lenis@1.0.42/dist/lenis.min.js"></script>
+
+<!-- ============ APP SCRIPT ============ -->
+<script>
+  // === BURAYI DEGISTIR: gercek salon bilgileriyle 60 saniyede kisisellestir ===
+  const SALON = {
+    ad: 'DERME Cilt Bakım & Estetik',
+    tagline: 'Cildinize sakin bir dokunuş.',
+    telefon: '+90 5__ ___ __ __',          // ACIKCA placeholder — gercek numarayi yaz
+    whatsapp: '905XXXXXXXXX',                // ulke kodu + numara, bosluksuz (orn: 905321234567)
+    adres: 'Moda Cad. No: __, Kadıköy/İstanbul',
+    instagram: '@derme.skin',
+    mapsQuery: 'Moda, Kadıköy',              // Google Maps embed sorgusu
+    googlePuani: '4.9',
+    hizmetler: [
+      { ad: 'Hydrafacial',         aciklama: 'Cildi temizleyen, soyan, besleyen ve nemlendiren çok adımlı ışıltı bakımı. Anında parlaklık, kalıcı bakım.', not: 'Anında parlaklık', oneCikan: true },
+      { ad: 'Klasik Cilt Bakımı', aciklama: 'Derin temizlik, peeling ve nemlendirme ile cildinizi yeniden canlandırın.', not: 'Tüm cilt tipleri' },
+      { ad: 'Leke Bakımı',         aciklama: 'Güneş ve yaşa bağlı lekelere yönelik, ton eşitleyici hedefli bakım programı.', not: 'Seans bazlı' },
+      { ad: 'Akne Bakımı',         aciklama: 'Aktif akne ve sivilce izlerine yönelik, cildi yatıştıran düzenli bakım.', not: 'Kişiye özel plan' },
+      { ad: 'Ağda / Sır Epilasyon',aciklama: 'Hijyenik tek kullanımlık ürünlerle pürüzsüz ve nazik tüy temizliği.', not: 'Yüz & vücut' },
+      { ad: 'Kaş & Kirpik Tasarımı',aciklama: 'Yüz hatlarınıza uygun kaş şekillendirme ve doğal kirpik tasarımı.', not: 'Yüze özel' },
+    ],
+    // ornek yorumlar — gercegiyle degistir (UYDURMA gercek isim YAZMA; bunlar ornek-isaretli yer tutucu)
+    yorumlar: [
+      { isim: 'Elif K.',  metin: 'Ortam çok temiz ve sakindi, hiç acele ettirilmedim. Cilt analizinden sonra bana özel bir bakım planı çıkardılar.', etiket: 'Klasik Cilt Bakımı' },
+      { isim: 'Merve A.', metin: 'Hydrafacial sonrası cildimdeki ışıltı bir hafta sürdü. Hijyen konusunda gerçekten titizler.', etiket: 'Hydrafacial' },
+      { isim: 'Selin Y.', metin: 'Leke bakımında abartılı vaatler vermediler, gerçekçi bir süreç anlattılar. Bu dürüstlük güven verdi.', etiket: 'Leke Bakımı' },
+    ],
+  };
+
+  /* ---------- Build WhatsApp / phone / IG links ---------- */
+  const waNumber = SALON.whatsapp.replace(/\D/g, '');
+  const waMsg = encodeURIComponent('Merhaba, ' + SALON.ad + ' için randevu almak istiyorum.');
+  const waLink = 'https://wa.me/' + waNumber + '?text=' + waMsg;
+
+  const setText = (sel, val) => document.querySelectorAll(sel).forEach(el => el.textContent = val);
+  setText('[data-config="ad-nav"]', 'DERME');
+  setText('[data-config="ad-footer"]', SALON.ad.split(' ')[0].toUpperCase() === 'DERME' ? 'DERME' : SALON.ad);
+  setText('[data-config="ad-copyright"]', SALON.ad);
+  setText('[data-config="ad-honesty"]', SALON.ad);
+  setText('[data-config="tagline-footer"]', "Kadıköy'de sakin, hijyenik ve kişiye özel cilt bakımı.");
+  setText('[data-config="adres"]', SALON.adres);
+  setText('[data-config="adres-footer"]', SALON.adres);
+  setText('[data-config="telefon"]', SALON.telefon);
+  setText('[data-config="telefon-footer"]', SALON.telefon);
+  setText('[data-config="instagram"]', SALON.instagram);
+  setText('[data-config="instagram-footer"]', SALON.instagram);
+  setText('[data-config="puan"]', SALON.googlePuani);
+
+  const telHref = 'tel:' + SALON.telefon.replace(/[^\d+]/g, '');
+  document.querySelectorAll('[data-config-tel]').forEach(a => a.setAttribute('href', telHref));
+  const igHandle = SALON.instagram.replace('@', '');
+  document.querySelectorAll('[data-config-ig]').forEach(a => a.setAttribute('href', 'https://instagram.com/' + igHandle));
+  ['heroCta', 'waFloat', 'formWa', 'ctaWa'].forEach(id => { const el = document.getElementById(id); if (el) el.setAttribute('href', waLink); });
+
+  const mapFrame = document.getElementById('mapFrame');
+  if (mapFrame) mapFrame.src = 'https://www.google.com/maps?q=' + encodeURIComponent(SALON.mapsQuery + ', İstanbul') + '&output=embed';
+
+  document.getElementById('year').textContent = new Date().getFullYear();
+
+  /* ---------- Service bento cards ---------- */
+  const grid = document.getElementById('serviceGrid');
+  if (grid) {
+    // bento span pattern: feature, wide, normal, normal, wide, normal
+    const spanFor = (h, i) => h.oneCikan ? 'feature' : (i === 4 ? 'wide' : '');
+    grid.innerHTML = SALON.hizmetler.map((h, i) => {
+      const cls = spanFor(h, i);
+      const icon = h.oneCikan
+        ? `<span class="svc-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 3c0 4-3 6-3 9a3 3 0 0 0 6 0c0-3-3-5-3-9Z"/><path d="M5.5 14.5c1.8 1 3 2.6 3 4.5" opacity=".5"/><path d="M18.5 14.5c-1.8 1-3 2.6-3 4.5" opacity=".5"/></svg></span>`
+        : '';
+      return `
+      <article class="svc ${cls}" data-reveal>
+        ${icon}
+        <div class="svc-top">
+          <span class="svc-num">0${i + 1}</span>
+          <span class="svc-tag">${h.not}</span>
+        </div>
+        <h3>${h.ad}</h3>
+        <p>${h.aciklama}</p>
+        <div class="svc-foot">
+          <span class="price">Fiyat <b>WhatsApp'tan</b></span>
+          <a href="${waLink}">Randevu →</a>
+        </div>
+      </article>`;
+    }).join('');
+  }
+
+  /* ---------- Review cards ---------- */
+  const rGrid = document.getElementById('reviewGrid');
+  if (rGrid) {
+    rGrid.innerHTML = SALON.yorumlar.map(y => `
+      <article class="review" data-reveal>
+        <div class="stars" aria-hidden="true">★★★★★</div>
+        <p class="quote">"${y.metin}"</p>
+        <div class="review-by">
+          <span class="avatar" aria-hidden="true">${y.isim.charAt(0)}</span>
+          <div>
+            <p class="name">${y.isim}</p>
+            <p class="meta">${y.etiket} · örnek yorum</p>
+          </div>
+        </div>
+      </article>
+    `).join('');
+  }
+
+  /* ---------- Mobile menu ---------- */
+  const menuBtn = document.getElementById('menuBtn');
+  const mobileMenu = document.getElementById('mobileMenu');
+  const menuIcon = document.getElementById('menuIcon');
+  let menuOpen = false;
+  const closeMenu = () => {
+    menuOpen = false;
+    mobileMenu.classList.add('hidden');
+    menuBtn.setAttribute('aria-expanded', 'false');
+    menuIcon.innerHTML = '<path d="M4 7h16M4 12h16M4 17h16"/>';
+  };
+  menuBtn.addEventListener('click', () => {
+    menuOpen = !menuOpen;
+    if (menuOpen) {
+      mobileMenu.classList.remove('hidden');
+      menuBtn.setAttribute('aria-expanded', 'true');
+      menuIcon.innerHTML = '<path d="M6 6l12 12M18 6 6 18"/>';
+    } else { closeMenu(); }
+  });
+  document.querySelectorAll('.m-link').forEach(a => a.addEventListener('click', closeMenu));
+  document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && menuOpen) closeMenu(); });
+  window.addEventListener('resize', () => { if (window.innerWidth >= 1024 && menuOpen) closeMenu(); });
+
+  /* ---------- Scroll-spy nav highlight ---------- */
+  const navLinks = [...document.querySelectorAll('.header .nav-link')];
+  const spySections = navLinks.map(a => document.querySelector(a.getAttribute('href'))).filter(Boolean);
+  if ('IntersectionObserver' in window && spySections.length) {
+    const spy = new IntersectionObserver((entries) => {
+      entries.forEach((en) => {
+        if (!en.isIntersecting) return;
+        const id = '#' + en.target.id;
+        navLinks.forEach(a => a.classList.toggle('active', a.getAttribute('href') === id));
+      });
+    }, { rootMargin: '-45% 0px -50% 0px' });
+    spySections.forEach(s => spy.observe(s));
+  }
+
+  /* ---------- Sticky navbar transparent -> solid ---------- */
+  const navbar = document.getElementById('navbar');
+  const onScroll = () => navbar.classList.toggle('scrolled', window.scrollY > 30);
+  window.addEventListener('scroll', onScroll, { passive: true });
+  onScroll();
+
+  /* ---------- Contact form (no real backend) ---------- */
+  const form = document.getElementById('contactForm');
+  const toast = document.getElementById('toast');
+  const toastMsg = document.getElementById('toastMsg');
+  let toastTimer;
+  const showToast = (msg) => {
+    toastMsg.textContent = msg;
+    toast.classList.add('show');
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(() => toast.classList.remove('show'), 3800);
+  };
+  form.addEventListener('submit', (e) => {
+    e.preventDefault();
+    const ad = form.ad.value.trim();
+    const tel = form.telefon.value.trim();
+    if (!ad || !tel) { showToast('Lütfen ad ve telefon alanlarını doldurun.'); return; }
+    // operator: Formspree veya WhatsApp'a bagla — su an hicbir yere POST etmiyor (demo)
+    form.reset();
+    showToast('Teşekkürler ' + ad.split(' ')[0] + '! En kısa sürede size döneceğiz.');
+  });
+
+  /* ---------- Motion: kinetic hero + Lenis(desktop) + GSAP reveals ---------- */
+  const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  // desktop-only smooth scroll: fine pointer + real hover
+  const isDesktop = window.matchMedia('(pointer:fine) and (hover:hover)').matches;
+
+  // kinetic hero: index each word for stagger delay
+  (function prepKinetic() {
+    const t = document.getElementById('heroTitle');
+    if (!t) return;
+    [...t.querySelectorAll('.kw')].forEach((w, i) => w.style.setProperty('--i', i));
+  })();
+
+  function initMotion() {
+    // kinetic hero reveal (CSS transition; reduced-motion no-ops via media query)
+    const heroTitle = document.getElementById('heroTitle');
+    if (heroTitle) requestAnimationFrame(() => heroTitle.classList.add('ready'));
+
+    if (reduceMotion) return; // content visible; no GSAP work
+
+    const hasGSAP = typeof window.gsap !== 'undefined' && typeof window.ScrollTrigger !== 'undefined';
+    if (!hasGSAP) {
+      // CDN failed — ensure nothing stays hidden
+      document.querySelectorAll('.pre-reveal').forEach(el => el.classList.remove('pre-reveal'));
+      return;
+    }
+
+    // hide reveal targets only now that we will animate them
+    document.querySelectorAll('[data-reveal]').forEach(el => el.classList.add('pre-reveal'));
+
+    gsap.registerPlugin(ScrollTrigger);
+
+    // Lenis ONLY on desktop; single RAF loop via gsap.ticker
+    let lenis = null;
+    if (isDesktop && typeof window.Lenis !== 'undefined') {
+      try {
+        lenis = new Lenis({ duration: 1.1, smoothWheel: true });
+        lenis.on('scroll', ScrollTrigger.update);
+        gsap.ticker.add((t) => lenis.raf(t * 1000));
+        gsap.ticker.lagSmoothing(0);
+      } catch (err) { lenis = null; }
+    }
+    // touch/mobile: native scroll (no Lenis, no extra RAF)
+
+    // Grouped reveal via batch (keeps active trigger count low)
+    const revealEls = gsap.utils.toArray('[data-reveal]:not(#hero [data-reveal])');
+    ScrollTrigger.batch(revealEls, {
+      start: 'top 88%',
+      once: true,
+      fastScrollEnd: true,
+      onEnter: (batch) => gsap.to(batch, {
+        opacity: 1, y: 0, duration: 0.85, ease: 'power3.out', stagger: 0.08,
+        overwrite: true,
+      }),
+    });
+
+    // hero reveals fire immediately (above the fold, no scroll)
+    gsap.utils.toArray('#hero [data-reveal]').forEach((el, i) => {
+      gsap.fromTo(el, { opacity: 0, y: 24 }, { opacity: 1, y: 0, duration: 0.9, delay: 0.1 + i * 0.1, ease: 'power3.out' });
+    });
+
+    // ---- HERO PARALLAX (desktop only): photo layer scrolls slower ----
+    // transform:translate3d via ScrollTrigger scrub — GPU-only, no layout/paint.
+    if (isDesktop) {
+      const heroPhoto = document.querySelector('.hero-photo');
+      if (heroPhoto) {
+        heroPhoto.classList.add('is-parallax'); // compositor hint, desktop only
+        gsap.to(heroPhoto, {
+          yPercent: 18,            // drifts down slower than the page
+          ease: 'none',
+          scrollTrigger: {
+            trigger: '#hero',
+            start: 'top top',
+            end: 'bottom top',
+            scrub: true,
+          },
+        });
+      }
+    }
+
+    // refresh after fonts/layout settle
+    window.addEventListener('load', () => ScrollTrigger.refresh());
+    requestAnimationFrame(() => ScrollTrigger.refresh());
+  }
+
+  /* ---------- Cursor-follow soft glow (desktop only, rAF throttled) ---------- */
+  (function heroCursorGlow() {
+    if (reduceMotion || !isDesktop) return;
+    const hero = document.getElementById('hero');
+    const glow = document.getElementById('heroGlow');
+    if (!hero || !glow) return;
+    glow.style.display = 'block';
+
+    let tx = 0, ty = 0, raf = 0, visible = false;
+    // cache hero rect; refresh on scroll/resize instead of reading it on
+    // every pointermove (avoids a forced reflow per mouse move).
+    let rect = hero.getBoundingClientRect();
+    const refreshRect = () => { rect = hero.getBoundingClientRect(); };
+    window.addEventListener('scroll', refreshRect, { passive: true });
+    window.addEventListener('resize', refreshRect, { passive: true });
+    const apply = () => {
+      raf = 0;
+      glow.style.transform = 'translate3d(' + tx + 'px,' + ty + 'px,0)';
+    };
+    hero.addEventListener('pointermove', (e) => {
+      if (e.pointerType && e.pointerType !== 'mouse') return; // mouse only
+      tx = e.clientX - rect.left;
+      ty = e.clientY - rect.top;
+      if (!visible) { visible = true; glow.style.opacity = '1'; }
+      if (!raf) raf = requestAnimationFrame(apply);
+    }, { passive: true });
+    hero.addEventListener('pointerleave', () => {
+      visible = false;
+      glow.style.opacity = '0';
+    });
+  })();
+
+  // scripts are deferred; run after they execute
+  if (document.readyState === 'complete' || document.readyState === 'interactive') {
+    // defer scripts run before DOMContentLoaded handlers fire in order; wait for them
+    window.addEventListener('DOMContentLoaded', initMotion);
+  } else {
+    window.addEventListener('DOMContentLoaded', initMotion);
+  }
+</script>
+</body>
+</html>
